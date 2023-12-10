@@ -1,0 +1,40 @@
+/* color palette from */
+:root {
+
+  --primary-ligher: #93a3fa;
+  --primary: #536dfe;
+  --primary-darker: #4256ca;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+
+  --vt-c-white: #ffffff;
+  --vt-c-black: #181818;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-text: var(--vt-c-black);
+
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

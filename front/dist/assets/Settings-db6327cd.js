@@ -1,0 +1,1 @@
+import{_ as t}from"./AppLayout-b1299f35.js";import{o as a,a as s,i as n,b as e}from"./index-c1e26543.js";const o=e("main",null,[e("p",null," Settings - WIP ")],-1),m={__name:"Settings",setup(r){return(_,c)=>(a(),s("div",null,[n(t),o]))}};export{m as default};

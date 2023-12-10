@@ -1,0 +1,1 @@
+import{o as n,a}from"./index-c1e26543.js";const s=(o,r)=>{const t=o.__vccOpts||o;for(const[e,c]of r)t[e]=c;return t},_={};function f(o,r){return n(),a("p",null,"Ça marche pas :/")}const p=s(_,[["render",f]]);export{p as default};
